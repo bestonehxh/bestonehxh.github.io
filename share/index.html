@@ -11,9 +11,9 @@ code{word-break:break-all;color:#9ab}</style></head>
 <p><small>The part after <code>#</code> never leaves your browser: it is not sent to this site or to anyone else.</small></p>
 </main>
 <script>
-// Hosted at https://bestonehxh.github.io/share/ . Static: the fragment (v1.<fileId>.<key>) stays on the client.
+// Hosted at https://bestonehxh.github.io/share/ . Static: the fragment (v2.<fileId>.<key>) stays on the client.
 var f = location.hash.slice(1);
 var a = document.getElementById('open');
-if (/^v1\.[A-Za-z0-9_-]{10,128}\.[A-Za-z0-9_-]{43}$/.test(f)) { a.href = 'sheepterm://share#' + f; }
+if (/^v2\.[A-Za-z0-9_-]{10,128}\.[A-Za-z0-9_-]{43}$/.test(f)) { a.href = 'sheepterm://share#' + f; }
 else { a.style.display = 'none'; document.getElementById('msg').textContent = 'This is not a valid SheepTerm share link.'; }
 </script></body></html>
